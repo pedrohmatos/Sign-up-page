@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <img class="form-image" src="assets/img/shopping.svg" alt="ilustration">
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <h1>Cadastre-se</h1>
+                    <button class="login-btn"><a href="#">Entrar</a></button>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="ifirstname">Primeiro nome</label>
+                        <input type="text" name="firstname" id="ifirstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="ilastname">Sobrenome</label>
+                        <input type="text" name="lastname" id="ilastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="iemail">E-mail</label>
+                        <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="inumber">Celular</label>
+                        <input type="tel" name="number" id="inumber" placeholder="(XX)XXXX-XXXX" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="ipassword">Senha</label>
+                        <input type="password" name="password" id="ipassword" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="iconfirmpassword">Confirme sua Senha</label>
+                        <input type="password" name="confirmpassword" id="iconfirmpassword" placeholder="Digite sua senha novamente" required>
+                    </div>
+                </div>
+
+                <div class="gender-inputs">
+                    <p>Gênero</p>
+                    <div class="gender-group">
+                    
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Feminino</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue">
+                    <button class="continue-btn">
+                        <a href="#">Continuar</a>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
